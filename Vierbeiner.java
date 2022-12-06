@@ -9,4 +9,8 @@ public class Vierbeiner {
         this.alter = alter;
         this.art = art;
     }
+    
+    public static void main(String args[]){
+        Katze.Schnurr();
+    }
 }

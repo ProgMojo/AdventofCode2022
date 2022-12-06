@@ -6,7 +6,7 @@ public class Hund extends Vierbeiner{
     }
 
     public static void bellen(){
-        ("wuff...wuff...");
+        System.out.println("wuff wuff");
     }
 }
 

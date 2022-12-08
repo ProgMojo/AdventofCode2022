@@ -10,10 +10,6 @@ public class Vierbeiner {
         this.art = art;
     }
 
-    CheckAge(alter){
-
-    }
-
     static Hund Bello = new Hund("Bello", 8, "Labrador");
 
     public static void main(String args[]){

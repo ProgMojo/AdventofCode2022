@@ -5,9 +5,9 @@ public class Hund extends Vierbeiner{
         super(name, alter, art);
     }
 
-    Hund Trick = new Hund("Paul", 20, "Chihuaha");
-    Hund Tick = new Hund("Lukas", 21, "Weimaraner");
-    Hund Track = new Hund("Simeon",21, "Pudel");
+   public static Hund Paul = new Hund("Paul", 20, "Chihuaha");
+   public Hund Lukas = new Hund("Lukas", 21, "Weimaraner");
+   public Hund Simeon = new Hund("Simeon",21, "Pudel");
 
     public static void bellen(){
         System.out.println("wuff wuff");
